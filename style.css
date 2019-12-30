@@ -1,0 +1,700 @@
+/*** Aspect général ***/
+
+body{
+	margin : 0 ;
+	padding : 0 ;
+	overflow : hidden ;
+}
+
+#wrap {
+	position : relative ;
+	top : 0 ;
+	-webkit-transition : top 0.8s cubic-bezier(.19,.08,.19,1) ;
+	-moz-transition : top 0.8s cubic-bezier(.19,.08,.19,1) ;
+	-ms-transition : top 0.8s cubic-bezier(.19,.08,.19,1) ;
+	-o-transition : top 0.8s cubic-bezier(.19,.08,.19,1) ;
+	transition : top 0.8s cubic-bezier(.19,.08,.19,1) ;
+}
+
+/*** Le menu ***/
+
+#wrap nav {
+	font-family: 'Indie Flower', cursive;
+	top : 0 ; 
+	left : 0 ;
+	right : 0 ;
+	position : fixed ;
+	z-index : 10 ;
+}
+
+#wrap p {
+	margin-left : 15px ;
+	margin-top : -2px ;
+	font-size : 36px ;
+}
+
+#wrap a {
+	margin-left : 15px ;
+}
+
+#wrap a:hover {
+	text-decoration : underline ;
+}
+
+/*** Les sections ***/
+
+#home, #about, #works, #passions, #project {
+	height : 1000px ;
+	padding-top : 40px ;
+	-webkit-transition : background-position 0.8s cubic-bezier(.19,.08,.19,1) ;
+	-moz-transition : background-position 0.8s cubic-bezier(.19,.08,.19,1) ;
+	-ms-transition : background-position 0.8s cubic-bezier(.19,.08,.19,1) ;
+	-o-transition : background-position 0.8s cubic-bezier(.19,.08,.19,1) ;
+	transition : background-position 0.8s cubic-bezier(.19,.08,.19,1) ;
+}
+
+/* Section 1 */
+
+#home {
+	background : url(background1.jpg) center center fixed ;
+	-webkit-background-size : cover ; 
+	-moz-background-size : cover ; 
+	-o-background-size : cover ; 
+	background-size : cover ;
+}
+
+#home h2 {
+	font-size : 72px ;
+    font-family: 'Indie Flower', cursive;
+	padding-top : 200px ;
+}
+
+/* Section 2 */
+
+#about {
+	background : url(background2.jpg) center center fixed ;
+	-webkit-background-size : cover ; 
+	-moz-background-size : cover ; 
+	-o-background-size : cover ; 
+	background-size : cover ;
+}
+
+#about h2 {
+	font-size : 56px ;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+#about h4 {
+	font-size : 32px ;
+    font-family: 'Sulphur Point', sans-serif;
+	text-align : center ;
+}
+
+#about div p {
+	width : 90% ;
+	display : block ;
+	margin: auto ;
+	font-size : 21px ;
+	text-align : justify ;
+	padding-top : 10px ;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+.rond1, .rond2, .rond3 {
+	margin : auto ;
+	display : block ;
+	width : 100px ;
+	height : 90px ;
+	border-radius : 100% ;
+	background : rgba(255,255,255,.7) ;
+}
+
+#about div i {
+	display : block ;
+	margin: auto ;
+	position : relative ;
+	font-size : 70px ;
+	text-align : center ;
+	padding-top : 10px ;
+}
+
+.person, .work, .web {
+	background : rgba(255,255,255,.7) ;
+	border-radius : 20px ;
+}
+
+/* Section 3 */
+
+#works {
+	background : url(background3.jpg) center center fixed ;
+	height : 1100px ;
+	-webkit-background-size : cover ; 
+	-moz-background-size : cover ; 
+	-o-background-size : cover ; 
+	background-size : cover ;
+}
+
+#works h2 {
+	font-size : 56px ;
+    font-family: 'Solway', serif;
+	padding-top : 150px ;
+}
+
+#works h4 {
+	font-size : 22px ;
+    font-family: 'Solway', serif;
+	margin-left : 15px ;
+}
+
+#works div p {
+	width : 90% ;
+	position : relative ;
+	display : block ;
+	margin : auto ;
+	font-size : 18px ;
+	text-align : justify ;
+	font-family: 'Solway', serif;
+	padding-top : 10px ;
+	padding-bottom : 10px ;
+}
+
+.teacher, .news, .radio {
+	background : rgba(255,255,255,0.8);
+	border-radius : 20px ;
+}
+
+#blackboard {
+	width : 40px ;
+	height : 40px ;
+	float : left ;
+	position : relative ;
+	margin-top : 25px ;
+	margin-left : 15px ;
+	margin-right : 10px ;
+}
+
+#books {
+	width : 40px ;
+	height : 40px ;
+	float : left ;
+	position : relative ;
+	margin-top : 25px ;
+	margin-left : 15px ;
+	margin-right : 10px ;
+}
+
+#microciné {
+	width : 40px ;
+	height : 40px ;
+	float : left ;
+	position : relative ;
+	margin-top : 15px ;
+	margin-left : 15px ;
+	margin-right : 10px ;
+}
+
+#socialnetwork {
+	width : 40px ;
+	height : 40px ;
+	float : left ;
+	position : relative ;
+	margin-top : 15px ;
+	margin-left : 15px ;
+	margin-right : 10px ;
+}
+#lavoix {
+	width : 40px ;
+	height : 40px ;
+	float : left ;
+	position : relative ;
+	margin-top : 25px ;
+	margin-left : 15px ;
+	margin-right : 10px ;
+}
+
+#people {
+	width : 40px ;
+	height : 40px ;
+	float : left ;
+	position : relative ;
+	margin-top : 25px ;
+	margin-left : 15px ;
+	margin-right : 10px ;
+}
+
+#concert {
+	width : 40px ;
+	height : 40px ;
+	float : left ;
+	position : relative ;
+	margin-top : 25px ;
+	margin-left : 15px ;
+	margin-right : 10px ;
+}
+
+#report1 {
+	width : 200px ;
+	height : 140px ;
+	padding-bottom : 10px ;
+}
+
+#report2 {
+	width : 200px ;
+	height : 140px ;
+	padding-bottom : 10px ;
+}
+
+#report3 {
+	width : 200px ;
+	height : 140px ;
+	padding-bottom : 10px ;
+}
+
+#report1, #report2, #report3 {
+	margin-left : 20px ;
+}
+
+#radiotitre {
+	margin-top : -270px ;
+}
+
+.radio .links {
+	margin : auto ;
+	}
+	
+/* Section 4 */
+
+#passions {
+	background : url(background4.jpg) center center fixed ;
+	height : 1100px ;
+	-webkit-background-size : cover ; 
+	-moz-background-size : cover ; 
+	-o-background-size : cover ; 
+	background-size : cover ;
+}
+
+#passions h2 {
+	font-size : 56px ;
+    font-family: 'Gupter', serif;
+	padding-top : 90px ;
+}
+
+#passions p {
+	font-size : 15px ;
+}
+
+#titrepassions {
+	background : rgba(255,255,255,0.8) ;
+	font-family: 'Gupter', serif;
+	border-radius : 20px ;
+	margin-left : 50px ;
+}
+
+#sports, #videogames {
+	background : rgba(255,255,255,0.8);
+	border-radius : 20px ;
+	font-family: 'Gupter', serif;
+	width : 48% ;
+	display : block ;
+	margin: auto ;
+}
+
+#sports {
+	margin-left : 1% ;
+}
+
+#videogames {
+	margin-left : 2% ;
+}
+
+#fleche {
+	float : left ;
+	margin-top : 28px ;
+}
+
+#titrepassions2 {
+	text-decoration : underline ;
+	text-decoration-color : red ;
+}
+
+#football {
+	width : 50px ;
+	height : 50px ;
+	float : left ;
+	position : relative ;
+	margin-right : 10px ;
+	-webkit-transition : all 0.5s ease ;
+	transition : all 0.5s ease ;
+}
+
+#cruijff-photo {
+	width : 50px ;
+	height : 50px ;
+	float : left ;
+	position : relative ;
+	margin-top : 15px ;
+	margin-right : 10px ;
+	-webkit-transition : all 0.5s ease ;
+	transition : all 0.5s ease ;
+}
+
+#textefootball, #textecruijff {
+	visibility : hidden ;
+	-webkit-transition : visibility 0.5s ease ;
+	transition : visibility 0.5s ease ;
+}
+
+#football:hover, #cruijff-photo:hover {
+	-webkit-transform : rotate(360deg) ;
+	transform : rotate(360deg) ;
+}
+
+#football:hover + #textefootball {
+	visibility : visible ;
+}
+
+#cruijff-photo:hover + #textecruijff {
+	visibility : visible ;
+}
+
+/* Section 5 */
+
+#project {
+	background : url(background5.jpg) center center fixed ;
+	height : 1100px ;
+	-webkit-background-size : cover ; 
+	-moz-background-size : cover ; 
+	-o-background-size : cover ; 
+	background-size : cover ;
+}
+
+#project h2 {
+	font-size : 56px ;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#project .card p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size : 15px ;
+}
+
+#project .card ul {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size : 15px ;
+}
+
+#project .card .card-title {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Pied de page et formulaire de contact */
+
+#piedpage {
+	font-family: 'Indie Flower', cursive;
+	font-size : 20px ;
+}
+
+/*** Les cibles ***/ 
+
+#s1:target ~ #wrap {top : 0px ;}
+#s1:target ~ #wrap #home {background-position : 50% 0% ;}
+#s1:target ~ #wrap #about {background-position : 50% -35% ;}
+#s1:target ~ #wrap #works {background-position : 50% -60% ;}
+#s1:target ~ #wrap #passions {background-position : 50% -90% ;}
+#s1:target ~ #wrap #project {background-position : 50% 30% ;}
+
+#s2:target ~ #wrap {top : -1000px ;}
+#s2:target ~ #wrap #home {background-position : 50% 36% ;}
+#s2:target ~ #wrap #about {background-position : 50% 0% ;}
+#s2:target ~ #wrap #works {background-position : 50% -30% ;}
+#s2:target ~ #wrap #passions {background-position : 50% -60% ;}
+#s2:target ~ #wrap #project {background-position : 50% -90% ;}
+
+#s3:target ~ #wrap {top : -2150px ;}
+#s3:target ~ #wrap #home {background-position : 50% 60% ;}
+#s3:target ~ #wrap #about {background-position : 50% 35% ;}
+#s3:target ~ #wrap #works {background-position : 50% 0% ;}
+#s3:target ~ #wrap #passions {background-position : 50% -30% ;}
+#s3:target ~ #wrap #project {background-position : 50% -60% ;}
+
+#s4:target ~ #wrap {top : -3200px ;}
+#s4:target ~ #wrap #home {background-position : 50% 90% ;}
+#s4:target ~ #wrap #about {background-position : 50% 60% ;}
+#s4:target ~ #wrap #works {background-position : 50% 30% ;}
+#s4:target ~ #wrap #passions {background-position : 50% 0% ;}
+#s4:target ~ #wrap #project {background-position : 50% -30% ;}
+
+#s5:target ~ #wrap {top : -4200px ;}
+#s5:target ~ #wrap #home {background-position : 50% -30% ;}
+#s5:target ~ #wrap #about {background-position : 50% 90% ;}
+#s5:target ~ #wrap #works {background-position : 50% 60% ;}
+#s5:target ~ #wrap #passions {background-position : 50% 30% ;}
+#s5:target ~ #wrap #project {background-position : 50% 0% ;}
+
+/* Le responsive */
+
+@media screen and (max-width : 500px) {
+nav #logo {
+	margin-left : 5px ;
+	margin-top : -2px ;
+	font-size : 24px ;
+}
+#home h2 {
+	font-size : 48px ;
+	padding-top : 200px ;
+}
+
+#about h2 {
+	font-size : 40px ;
+}
+}
+
+@media screen and (max-width :1500px) {
+body{
+	overflow : scroll ;
+}
+}
+
+@media screen and (max-width :1500px) {
+#works h2 {
+	font-size : 50px ;
+	padding-top : 50px ;
+}
+}
+
+@media screen and (max-width :1455px) {
+#radiotitre {
+	margin-top : -470px ;
+}
+}
+
+@media screen and (max-width : 1075px) {
+#about h4 {
+	font-size : 28px ;
+}	
+
+#works {
+	height : 1300px ;
+}
+}
+
+@media screen and (max-width : 1000px) {
+#about {
+	height : 1100px;
+}
+
+#radiotitre {
+	margin-top : -590px ;
+}
+
+#works div p {
+	font-size : 15px ;
+}
+
+.rond1, .rond2, .rond3 {
+	margin-top : 25px ;
+}
+
+#about div p {
+	font-size : 16px ;
+}
+}
+
+@media screen and (max-width :775px) {
+#about {
+	height : 1225px;
+}
+}
+
+@media screen and (max-width : 750px) {
+#passions {
+	height : 1300px ;
+}
+}
+
+@media screen and (max-width : 730px) {
+#works {
+	height : 1400px ;
+}	
+
+#passions {
+	height : 1300px ;
+}
+
+#titrepassions {
+	margin-left : 15px ;
+}
+
+#titrepassions h4 {
+	font-size : 16px ;
+}
+
+#titrepassions2 {
+	font-size : 18px ;
+}
+
+#fleche {
+	margin-top : 16px ;
+}
+}
+
+@media screen and (max-width : 615px) {
+#works {	
+	height : 1475px ;
+}
+}
+
+@media screen and (max-width : 610px) {
+#passions {	
+	height : 1375px ;
+}
+
+#passions p {
+	font-size : 13px ;
+}
+}
+
+@media screen and (max-width : 540px) {
+#works {	
+	height : 1550px ;
+}
+
+#report1, #report2, #report3 {
+	width : 140px ;
+	height : 98px ;
+	display : block ;
+	margin : auto ;
+}
+}
+
+@media screen and (max-width : 490px) {
+#works {
+	height : 1475px ;
+}
+
+#works div p {
+	font-size : 13px ;
+}
+}
+
+@media screen and (max-width : 450px) {
+#passions h2 {
+	padding-top : 10px ;
+	font-size : 24px ;
+}
+
+#passions {height : 1600px;}
+}
+
+@media screen and (max-width : 440px) {
+#works {
+	height : 1550px ;
+}
+
+#works div p {
+	font-size : 12px ;
+}
+
+#report1, #report2, #report3 {
+	width : 100px ;
+	height : 70px ;
+	display : block ;
+	margin : auto ;
+}
+}
+
+@media screen and (max-width : 360px) {
+#works {
+	height : 1650px ;
+}
+
+#works div p {
+	font-size : 10px ;
+}
+}
+
+
+
+@media screen and (max-width:645px) {
+#about {
+	height : 1375px;
+}
+}
+
+@media screen and (max-width : 601px) {
+	#sports, #videogames {
+	width : 95% ;
+}
+
+#videogames {
+	margin-top : 10px ;
+}
+}
+
+@media screen and (max-width:545px) {
+#about {
+	height : 1250px;
+}
+
+#about div p {
+	font-size : 14px ;
+}
+
+#passions {
+	height : 1500px ;
+}
+}
+
+@media screen and (max-width:505px) {
+#about {
+	height : 1365px;
+}
+}
+
+@media screen and (max-width : 390px) {
+#about {
+	height : 1450px;
+}
+}
+
+@media screen and (max-width : 360px) {
+#about {
+	height : 1400px;
+}
+
+#about div p {
+	font-size : 12px ;
+}
+}
+
+@media screen and (max-width : 350px) {
+	#passions p {
+		font-size : 12px ;
+	}
+}
+
+@media screen and (max-width : 100px) {
+#about {
+	height : 1650px;
+}
+
+#about div p {
+	font-size : 11px ;
+}
+}
+
+@media screeen and (max-width : 992px) {
+	#project {
+		height : 1500px ;
+	}
+	
+	.footer-copyright {
+		margin-top : -450px ;
+	}
+	
+	
+}
+
+
+
+
